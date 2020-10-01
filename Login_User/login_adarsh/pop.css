@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+background:black;
+background-size:cover;
+
+}
+.hero{
+    margin-top: -25%;
+    height: 50%;
+}
+.logog{
+    margin-left: 38%;
+    width: 25%;
+    height:;
+    
+    
+}
+
+.intro1{
+    color: #f06292;
+    font-family: 'Lemonada', cursive;
+    margin-left: 15%;
+    font-size: 25px;
+
+}
+
+/*nav*/
+
+
+header{
+    background-color:black;
+    
+}
+.right{
+    width: 50%;
+    float: right;
+    
+
+}
+.log{
+    margin-left: 80%;
+    font-family: 'Great Vibes', cursive;
+}
+.pimg{
+    width: 25%;
+    height: 25%;
+    
+}
+.cre{
+    
+    color: black;
+}
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(5, 84, 90, 0.322);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s ,opacity 0.15s;
+}
+.bg-activ{
+    visibility: visible;
+    opacity: 1;
+}
+.inn{
+    position: relative;
+    background:tomato;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+    border-radius: 30px;
+    border-color: blueviolet;
+    border-width: 10px;
+    box-sizing: 9px 50px 12px black;
+    
+    
+}
+.x{
+    color:black;
+    font-size: 25px;
+}
+
+input{
+    font-size: 15px;
+    width: 215px;
+    height: 70%;
+    border-radius: 5px;
+    margin: 0;
+    font-style: italic;
+
+    box-sizing: border-box;
+    transition: 1s;
+
+}
+
+
+.closes{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    top:-5px;
+    color: black;
+    font-size: 30px;
+}
+.left{
+    width: 50%;
+    float: left;
+
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    width: 1000px;
+    height: 100000px;
+}
+.modal-btn{
+    margin-top: -5%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    
+    
+}
+.anal{
+width: 100%;
+height: 75%;
+}
+
+.modal-btn:hover{
+    color: tomato;
+    border-radius: 200px;
+    border-color: blueviolet;
+    background-color:wheat;
+    animation: shake 0.8s ease-in-out ;
+}
+@keyframes shake{
+    0%{
+        transform: translate(0);
+      }
+      20%,
+      40%,
+      60%,
+      80%{
+        transform: translate(.10em);
+        
+      }
+      10%,
+      30%,50%
+      {
+        transform: translate(-.1em);
+      }
+    
+      70%,100%{
+        transform: translate(0);
+      }
+    
+    
+    
+}
+button{
+    color: green;
+    font-size: 70px;
+    background-color: transparent;
+    border-radius: 50px;
+    font-family: 'Great Vibes', cursive;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    width: 100%;
+    color: aliceblue;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.preload{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(5, 84, 90, 0.322);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+}
+.astro{
+    height: 200px;
+    animation: astroo 1s ease-in-out infinite;
+}
+.preload-finish{
+    opacity: 0;
+    pointer-events: none;
+
+}
+@keyframes astroo{
+    from{
+        transform: translateY(0px);
+    } 
+
+    to{
+        transform: translateY(50px);
+    }
+
+}
