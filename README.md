@@ -1,4 +1,4 @@
-# Website Component Templates. 
+# Website Components Templates. 
 
 * This repo is dedicated to all the templates we regularly use while developing websites/webapps.
 
