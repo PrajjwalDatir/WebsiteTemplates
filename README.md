@@ -3,6 +3,11 @@
 * This repo is dedicated to all the templates we regularly use while developing websites/webapps.
 
 
+![GitHub repo size](https://img.shields.io/github/repo-size/PrajjwalDatir/WebsiteTemplates)
+![GitHub contributors](https://img.shields.io/github/contributors/PrajjwalDatir/WebsiteTemplates)
+![GitHub stars](https://img.shields.io/github/stars/PrajjwalDatir/WebsiteTemplates?style=social)
+![GitHub forks](https://img.shields.io/github/forks/PrajjwalDatir/WebsiteTemplates?style=social)
+
 ## Instructions For submitting your templates
 
 
