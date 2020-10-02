@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	background: url(../img/mountain.png) no-repeat center center fixed;
+	background-size: cover;
+}
+.user-img {
+	margin-top: -50px;
+}
+.user-img img {
+	height: 100px;
+	width: 100px;
+}
+.main-section {
+	margin: 0 auto;
+	margin-top: 150px;
+	padding: 0;
+}
+.modal-content {
+	background-color: #00000096;
+	opacity: .95;
+}
+.user-name {
+	margin: 10px 0;
+}
+.user-name h1 {
+	font-size: 30px;
+	color: #ccd6d7;
+}
+.form-input button {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.btn-primary {
+	background-color: #0b7dff;
+	border: 1px solid #2e60cc;
+}
+.btn-primary:hover {
+	background-color: #6bb0ff;
+	border: 1px solid #2e60cc;
+}
+.link-part {
+	background-color: #ecf1ef;
+	padding: 15px;
+	border-radius: 0 0 5px 5px;
+	border-top: 1px solid #c2c2c2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
