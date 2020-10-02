@@ -1,0 +1,78 @@
+body {
+    font-size: 1.3rem;
+    background-color: #ecf4f3;
+}
+
+/* Navbar */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+.navbar-custom {
+    align-items: center;
+    background-color: rgb(190, 15, 15);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-custom a {
+    color: black;
+}
+
+.navbar-custom a:hover {
+    color: rgb(43, 41, 41);
+    text-decoration: none;
+}
+
+.navbar-custom-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 3rem;
+}
+
+.nav-search-box {
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 3px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    width: 290px;
+}
+
+.nav-search-button {
+    margin-right: 3rem;
+}
+
+.logo {
+    width: 3%;
+    margin-right: 0.5rem;
+}
+
+.navbar-custom-link {
+    font-size: 1.2rem;
+}
+
+/* Navbar ending */
+
+/* Link tab */
+
+.search-link-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    box-shadow: 0 0 3px 1px gray;
+}
+
+.search-link-div a {
+    color: black;
+}
+
+.search-link-div a:hover {
+    color: black;
+}
