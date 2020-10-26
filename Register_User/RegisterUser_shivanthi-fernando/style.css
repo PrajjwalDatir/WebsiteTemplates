@@ -1,0 +1,16 @@
+.login_background {
+    background: #B2DFDB;
+    /*background:  #BBDEFB;*/
+    /*background: #9FA8DA; */
+}
+    
+.headding {
+    font-family: 'Montserrat', sans-serif;
+    color: #004D40;
+}
+
+.margins{
+    padding-top: 8rem; 
+    padding-left: 15rem; 
+    padding-bottom: 8rem;
+}
