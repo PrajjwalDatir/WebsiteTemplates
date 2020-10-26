@@ -1,0 +1,18 @@
+.index_background {
+    background-image: url(background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.headding {
+    font-family: 'Montserrat', sans-serif;
+    color: #004D40;
+}
+
+.padding{
+    padding-top: 8rem; 
+    padding-left: 14rem;
+    padding-bottom: 10rem;
+}
