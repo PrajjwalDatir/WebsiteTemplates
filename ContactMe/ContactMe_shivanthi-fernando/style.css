@@ -1,5 +1,5 @@
 .index_background {
-    background-image: url(background.jpg);
+    background: url(background.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
