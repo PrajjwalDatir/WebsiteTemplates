@@ -4,6 +4,6 @@
 
 To run : index.html
 
-Screeshot of the Navbar form template : Navbar_screenshot.png
+Screeshot of the Navbar form template : screen-shot.png
 
 Name : Antoine Meyer
