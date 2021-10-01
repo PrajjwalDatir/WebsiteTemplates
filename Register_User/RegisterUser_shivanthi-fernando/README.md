@@ -4,7 +4,9 @@
 
 To run : register.html
 
-Screenshots of the register form template are inside the screenshots folder
+### Screenshots of the register form template
+ <img src="./screenshots/register_screenshot_1.png" alt="This is an image" style="float: left; margin-right: 10px;" />
+ <img src="./screenshots/register_screenshot_2.png" alt="This is an image" style="float: left; margin-right: 10px;" />
 
 Name : Shivanthi Fernando
 
