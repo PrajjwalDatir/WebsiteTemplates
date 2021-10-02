@@ -4,6 +4,8 @@
 
 To run : index.html
 
-Screenshot of the contactMe form template : ContactMe_screenshot.png 
+### Screenshots
+
+<img src="./ContactMe_screenshot.png" alt="This is an image" style="float: left; margin-right: 10px;" />
 
 Name : Shivanthi Fernando
