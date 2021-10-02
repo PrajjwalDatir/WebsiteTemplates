@@ -14,7 +14,7 @@ html {
 
 .navbar-custom {
     align-items: center;
-    background-color: rgb(190, 15, 15);
+    background-color: rgb(248 65 65);
     display: flex;
     justify-content: center;
 }
@@ -75,4 +75,5 @@ html {
 
 .search-link-div a:hover {
     color: black;
+    background-color: rgb(174, 212, 214);
 }
