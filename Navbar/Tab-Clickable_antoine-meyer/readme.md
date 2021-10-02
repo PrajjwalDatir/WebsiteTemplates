@@ -4,6 +4,7 @@
 
 To run : index.html
 
-Screeshot of the Navbar form template : screen-shot.png
+### Screenshots 
+<img src="./screen-shot.png" alt="This is an image" style="float: left; margin-right: 10px;" />
 
 Name : Antoine Meyer
