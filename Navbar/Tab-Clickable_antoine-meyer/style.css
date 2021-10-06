@@ -1,0 +1,105 @@
+@font-face{
+    font-family: 'Fira Code';
+    src: url(FiraCode-VariableFont_wght.ttf);
+}
+
+html{
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+*{
+    box-sizing: border-box; /*voir a quoi ca sert*/
+}
+
+body{
+    color: #eaf2f1;
+    background: #282a3a;
+    font-family: 'Fira Code', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 100%;
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+}
+
+header{
+    display: block;
+}
+
+.navbar-dark{
+    background: #1e4972;
+}
+
+.navbar{
+    padding: 0px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 850px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ul{
+    margin-top: 0;
+}
+
+.nav-link{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: block;
+    padding: .5rem 1rem;
+    color: #b2b9bd;
+}
+
+.active{
+    color: #ffd76d;
+    background: #282a3a;
+}
+
+.nav-link:hover{
+    color: #ffd76d;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #85dacc;
+    background-color: transparent;
+}
+
+.pound{
+    color: #ff657a;
+}
+
+.HH{
+    font-weight: 500;
+    font-family: 'Fira Code', sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.code{
+    background: #3a3d4b;
+    padding: 5px 10px 5px 10px;
+}
