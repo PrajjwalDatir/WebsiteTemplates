@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+  font-family: 'Manrope', sans-serif;
+  color: #122333;
+  user-select: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:#F3F6FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.calendar{
+    width: 50rem;
+    height: 56.5rem;
+    padding: 1.5rem 2.5rem 0 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 1000px -1000px rgb(0 0 0 / 0%), 0 3px 6px rgb(0 0 0 / 3%);
+}
+
+.month{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.notification-and-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7.5rem;
+}
+
+.notifications{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notifications ion-icon{
+    font-size: 4rem;
+    position: relative;
+}
+
+.notifications ion-icon::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: #0DA361;
+    background: -webkit-linear-gradient(bottom right, #0DA361, #38B88D);
+    background: -moz-linear-gradient(bottom right, #0DA361, #38B88D);
+    background: linear-gradient(to top left, #0DA361, #38B88D);
+    z-index: 2;
+}
+
+.notifications ion-icon:nth-child(2):after{
+    left: 0.5rem;
+}
+
+.time{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.controls-and-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7.5rem;
+    position: relative;
+}
+
+.month-year{
+    font-weight: 700;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.controls ion-icon{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.weekdays{
+    width: 100%;
+    height: 5rem;
+    padding: 0 .4rem;
+    display: flex;
+    align-items: center;
+}
+
+.weekdays div{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem/7);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+
+.days div{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0.3rem;
+    width: calc(40.2rem/7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent ;
+    transition: 0.25s ease-in;
+    border-radius: 1rem;
+    box-shadow: 0 3px 1000px -1000px rgba(0,0,0,0.0), 0 3px 6px rgba(0,0,0,0.03);
+}
+
+.prev-date,.next-date{
+    opacity: .27;
+}
+
+.today{
+    background: #203E74;
+    background: -webkit-radial-gradient(bottom right, #203E74, #295297);
+    background: -moz-radial-gradient(bottom right, #203E74, #295297);
+    background: radial-gradient(to top left, #203E74, #295297);
+    aspect-ratio: 1/1;
+    border: 3px solid transparent;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.today:hover{
+    cursor: pointer;
+}
+
+.days div:hover:not(.today){
+    /* color: #fff; */
+    cursor: pointer;
+    border-radius: 1rem;
+    /* background-color: #fff; */
+    /* border: 3px solid #203d7450 ; */
+    /* box-shadow: 1px 1px 147px -12px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 1px 1px 147px -12px rgba(0,0,0,0.48);
+    -moz-box-shadow: 1px 1px 147px -12px rgba(0,0,0,0.48); */
+}
+
+.days div:hover{
+    transform: scale(1.05);
+}
+
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    place-items: center;
+}
+
+.year-select{
+    position: absolute;
+    width: 15rem;
+    height: 12.5rem;
+    /* background-color: #F3F6FD; */
+    border-radius: 1rem;
+    display: flex;
+    padding: 1rem;
+    z-index: 99;
+}
+
+.year-select-controls{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F3F6FD;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.years{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.year-select-controls ion-icon{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.years .year{
+    font-size: 2rem;
+    opacity: 0.5;
+    padding: 1rem;
+    box-shadow: 0 3px 1000px -1000px rgba(0,0,0,0.0), 0 3px 6px rgba(0,0,0,0.03);
+    font-weight: 700;
+    background-color: #F3F6FD;
+    border-radius: 1rem;
+}
+
+.years .year:nth-child(1){
+    transform: perspective(400px) rotateX(45deg);
+    pointer-events: none;
+}
+
+.years .year:nth-child(3){
+    transform: perspective(400px) rotateX(-45deg);
+    pointer-events: none;
+}
+
+.years .year:nth-child(2){
+    font-size: 2.5rem;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.years .year:nth-child(2):hover{
+    transform: scale(1.05);
+}
+
+.years .year:empty{
+    opacity: 0;
+}
