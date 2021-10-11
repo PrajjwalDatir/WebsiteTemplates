@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script defer src="./assets/js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js' integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' crossorigin='anonymous'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="overlay">
+            <div class="year-select">
+                <div class="years">
+                    <span class="year previous-year"></span>
+                    <span class="year current-year"></span>
+                    <span class="year next-year"></span>
+                </div>
+                <div class="year-select-controls">
+                    <ion-icon name="chevron-up-circle-outline" class="prev-year"></ion-icon>
+                    <ion-icon name="close-circle-outline" class="close-year-select"></ion-icon>
+                    <ion-icon name="chevron-down-circle-outline" class="next-year"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="calendar">
+            <div class="month">
+                <div class="notification-and-time">
+                    <div class="notifications">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <ion-icon name="notifications-outline"></ion-icon>
+                    </div>
+                    <span class="time">10:23 AM</span>
+                </div>
+                <div class="controls-and-date">
+                   
+                    <span class="month-year"></span>
+                    <div class="controls">
+                        <ion-icon name="chevron-back-outline" class="prev"></ion-icon>
+                        <ion-icon name="chevron-forward-outline" class="next"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="weekdays">
+                <div>Su</div>
+                <div>Mo</div>
+                <div>Tu</div>
+                <div>We</div>
+                <div>Th</div>
+                <div>Fr</div>
+                <div>Sa</div>
+            </div>
+            <div class="days">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
