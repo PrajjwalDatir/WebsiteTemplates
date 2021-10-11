@@ -4,7 +4,7 @@
 
 To run : login.html
 
-Screenshot of the login form template : screenshot_of_food_stories_login.jpg
+Screenshot of the login form template : ![Screenshot](screenshot_of_food_stories_login.png)
 
 Name : Shivanthi Fernando
 
