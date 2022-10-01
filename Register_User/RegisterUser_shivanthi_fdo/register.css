@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.register-space {
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.register img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.register h1 {
+    font-size: 5rem;
+    font-weight: 700px;
+    font-family: 'Birthstone', cursive;
+    color: #503102;
+}
+
+.button-colour{
+    background-color: #503102;
+    color: white;
+    font-size: 20px;
+    margin-left: 38%;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #503102;
+    margin-left: 30px;
+}
+
+.checkbox-style{
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
